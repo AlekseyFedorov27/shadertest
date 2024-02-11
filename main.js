@@ -10,7 +10,7 @@ class App {
   constructor() {
     this.waterTexture = new WaterTexture({ debug: false });
 
-    this.text = new Text('Примвет мир');
+    this.text = new Text('Привет мир');
 
     var input = document.getElementById('input')
 
@@ -41,7 +41,7 @@ class App {
     // this.material2 = new THREE.MeshBasicMaterial({ map: this.waterTexture, side: THREE.DoubleSide })
 
     
-    const imageTexture = new THREE.TextureLoader().load('./shadertest/src/assets/image.png');
+    const imageTexture = new THREE.TextureLoader().load('./src/assets/image.png');
 
     const material2 = new THREE.MeshBasicMaterial({map: this.text})
 
